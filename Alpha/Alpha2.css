@@ -1,0 +1,436 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./AlphaImage/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#menu{
+    display: none;
+}
+#HeaderSection div ul li button{
+    background-color: transparent;
+    width: 74px;
+    height: 33px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    color: white;
+}
+
+#HeaderSection{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#HeaderSection #Left h1 span{
+    font-weight: 100;
+}
+#HeaderSection #Left h1{
+    font-size: 16px;
+}
+#HeaderSection div ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    align-items: center;
+}
+#BodySection{
+    text-align: center;
+    color: #fcfcfb;
+    margin-top: 95px;
+}
+#BodySection h1{
+    font-size: 55px;
+}
+#BodySection p{
+    font-size: 22px;
+}
+#BodySection button{
+    width: 192px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #666666;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#BodySection #Learn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #aeb3b6;
+}
+#kk{
+    margin-top: 219px;
+}
+#DiscriptiveSection{
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    /* width: 70%;
+    margin: auto;
+    this will display image at center leaving gap from both the side (sequence shoulg be same first width and then margin) */
+    color: #7b7b7b; 
+}
+#DiscriptiveSection h1{
+    font-size: 35px
+}
+#DiscriptiveSection p{
+    font-size: 23px;
+    border-top: 1px solid #e8e8e8;
+    width:70%;
+    margin: auto;
+    padding-top: 40px;
+}
+#DiscriptiveSection img{
+    width: 100%;
+    padding-top: 40px;
+}
+/* #DiscriptiveSection #line{
+    width: 60%;
+    margin: auto;
+    padding-top: 40px; }*/
+
+@media (max-width:600px){
+    #HeaderSection{
+        display: none;
+    }
+    #menu{
+        display: inline;
+        padding: 2px 10px ;
+        color: white;
+        border-radius: 5px;
+        background-color: rgba(255, 248,248,0.704);
+    }
+    body{
+        background-size: 180%;
+        background-position-x: center;
+    }
+    #BodySection{
+        margin-top: 0px;
+    }
+    #BodySection h1{
+        font-size: 30px;
+    }
+    #BodySection p{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    #BodySection button{
+        width: 350px;
+        height: 50px;
+    }
+    #DiscriptiveSection{
+        padding-top: 7px;
+        background-color: white;
+        width: 100%;
+        margin: auto;
+    }
+    #DiscriptiveSection h1{
+        font-size: 26px
+    }
+    #DiscriptiveSection p{
+        font-size: 18px;
+        width:95%;
+        padding-top: 20px;
+        border-top: 2px solid #e8e8e8;
+    }
+    #DiscriptiveSection img{
+        width: 100%;
+    }
+    #kk{
+        margin-top: 98px;
+    }
+    br{
+        display: none;
+    }
+}
+/* @media (max-width: 600px); is the comand for display the project in mobile */
+body{
+    background-color: #f5f5f5;
+}
+#IconSection{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 35px;
+    color: #646464;
+}
+#IconSection div{
+    display: inline-block;
+    text-align: center;
+    width: 46%;
+    margin-top: 42px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.fa.fa-bolt{
+    border-radius: 100%;
+    font-size: 45px;
+    background-color: #e89980;
+    color: #ffffff;
+    padding: 25px 38px;
+}
+.fa.fa-area-chart{
+    border-radius: 100%;
+    font-size: 45px;
+    background-color:
+    #7fcdb8 ;
+    color: #ffffff;
+    padding: 24px;
+}
+.fa.fa-cloud{
+    border-radius: 100%;
+    font-size: 45px;
+    background-color: #90b0ba;
+    color: #ffffff;
+    padding: 24px;
+}
+.fa.fa-lock{
+    border-radius: 100%;
+    font-size: 45px;
+    background-color: #e5cb95 ;
+    color: #ffffff;
+    padding: 24px 37px;
+}
+#Icon1{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    left: 33px;
+}
+#Icon4{
+    border-top:2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+    position: relative;
+    top: -44px;
+}
+#Icon3{
+    position: relative;
+    top: -42px;
+    left: 5px;
+}
+#ImageSection{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;   
+}
+#ImageSection div{
+    width: 48%;
+    display: inline-block;
+    background-color: white;
+    color: #646464;
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#ImageSection div img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#ImageSection div h1{
+    font-size: 35px;
+}
+#ImageSection div button{
+    border-radius: 5px;
+    background-color: white;
+    color:  #6e716e;
+    width: 140px;
+    height: 42px;
+    border: 2px solid #d5cdce;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#ImageSection #Img2{
+    margin-left: 39px;
+}
+#SignupSection{
+    background-color: #e89980;
+    text-align: center;
+   margin-top: 90px;
+   padding: 51px;
+   color: #f9e6df;
+}
+#SignupSection h1{
+    font-size: 37px;
+}
+#SignupSection lable input{
+    width: 263px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #eba893;
+    border: transparent;
+    
+}
+::placeholder{
+    color: white;
+    padding-left: 15px;
+}
+#SignupSection button{
+    width: 108px;
+    height: 47px;
+    border-radius: 5px;
+    background-color: white;
+    color: #efb18d;
+    border: transparent;
+    margin-left: 15px
+}
+#FooterSection{
+    padding-bottom: 100px;
+}
+#FooterSection #Icon{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: #c6c6c6;
+    margin-top: 60px;
+}
+#FooterSection #content ul{
+    padding-top: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    
+}
+#FooterSection #content ul #Li1{
+    border-right: 1px solid #dfdfdf;
+    padding-right: 17px;
+}
+#FooterSection #content ul #Li2{
+    border-right: 1px solid #dfdfdf;
+    padding-right: 17px; 
+}
+
+@media (max-width:600px) {
+    #IconSection{
+        width: 100%;
+        margin: auto;  
+    }
+    #IconSection div{
+        width: 87%;
+        border-bottom: 2px solid #e5e5e5;
+        padding-bottom: 25px;
+        text-align: center;
+    }  
+    #Icon1{
+        border-right: 0px solid white;
+        position: relative;
+        left: 0px;
+    }
+    #Icon4{
+        border-top:0px solid white;
+        border-left: 0px solid white;
+        border-bottom: 0px solid transparent;
+        top: 0px;
+    }
+    #Icon3{
+        top: 0px;
+        left: 0px;
+    }
+    
+    #ImageSection{
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;   
+    }
+    #ImageSection div{
+        width: 100%; 
+        border-radius: 0px;
+    }
+    #ImageSection div img{
+        width: 100%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    #ImageSection div h1{
+        font-size: 22px;
+    }
+    #ImageSection div button{
+        width: 398px;
+        height: 52px;
+        margin-bottom: 25px;
+    }
+    #ImageSection #Img2{
+        margin-left: 0px;
+    }
+    #ImageSection div h1{
+        padding-top: 20px;
+    }
+    #ImageSection div p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #SignupSection{
+       margin-top: 0px;
+       padding: 42px;
+       color: #f9e6df;
+    }
+    #SignupSection h1{
+        font-size: 24px;
+        padding-top: 15px;
+    }
+    #SignupSection p{
+        font-size: 15px;
+    }
+    #SignupSection lable input{
+        width: 360px;
+        border-radius: 5px;  
+    }
+    ::placeholder{
+        padding-left: 15px;
+    }
+    #SignupSection button{
+        width: 366px;
+        margin-top: 10px;
+        height: 45px;
+        margin-left: 0px
+    }
+    #FooterSection{
+        padding-bottom: 100px;
+    }
+    #FooterSection #content ul{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 13px;
+        display: block;
+        text-align: center;
+        list-style-type: none;
+        
+    }
+    #FooterSection #content ul #Li1{
+        border-right: 0px solid #dfdfdf;
+        padding-right: 0px;
+    }
+    #FooterSection #content ul #Li2{
+        border-right: 0px solid #dfdfdf;
+        padding-right: 0px; 
+    }
+}
+    
+
+    
+ 
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+

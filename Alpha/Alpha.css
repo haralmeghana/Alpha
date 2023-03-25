@@ -1,0 +1,40 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Above link is taken for the font from google fonts {Source sans pro} */
+#HeaderSection div{
+    display: inline-block;
+}
+/* A h1 and div both are block so no use of givings css to h1 insted give fo id */
+#HeaderSection div ul li{
+    display: inline-block;
+}
+/* As the content Home Layout Sighup is in #HeaderSection div ul li so give whoel comand */
+#HeaderSection #Left{
+    width: 75%;
+}
+/* For shifting content Home Layout and Signup to left side so increase the width of id left */
+#HeaderSection #Left h1{
+    font-size: 16px;
+}
+#HeaderSection div ul li button{
+    background-color: transparent;
+    width: 74px;
+    height: 33px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    color: white;
+}
+#HeaderSection div ul li{
+    padding-left: 45px;
+}
+#HeaderSection{
+    color: white;
+}
+#HeaderSection #Left h1 span{
+    font-weight: 100;
+}
